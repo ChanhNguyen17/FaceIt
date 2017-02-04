@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Face View Controller-->
+        <!--Blinking Face View Controller-->
         <scene sceneID="DFi-j0-ctN">
             <objects>
-                <viewController id="zPZ-qb-qt6" customClass="FaceViewController" customModule="FaceIt" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="zPZ-qb-qt6" customClass="BlinkingFaceViewController" customModule="FaceIt" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ZNX-qI-lAW"/>
                         <viewControllerLayoutGuide type="bottom" id="A5K-Ci-nnj"/>
@@ -64,11 +64,11 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dsd-3C-0c5" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="Ow5-bp-mgy">
                     <connections>
-                        <action selector="toggleEyes:" destination="zPZ-qb-qt6" id="lxn-nC-xs4"/>
+                        <action selector="headShake:" destination="zPZ-qb-qt6" id="XXw-Wn-age"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-295" y="-1487"/>
+            <point key="canvasLocation" x="-362" y="-1469"/>
         </scene>
         <!--Split View Controller-->
         <scene sceneID="DMt-8b-ff6">
